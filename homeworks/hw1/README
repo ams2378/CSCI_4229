@@ -1,0 +1,38 @@
+Assigment 2 
+Projection and 3D scene
+
+Adil Sadik (BBA student)
+sadik.adil@gmail.com
+
+
+Key bindings
+    Arrow keys  Change view angle
+    ESC         Exit
+    0           Reset view angle and parameters
+  m/M           Cycle through different sets of objects
+                m : original scene with multiple instances of ship.
+                M : the single instance of a ship.
+  q/Q           Enable/Disbale axis
+  p/P           Projections
+                p : Orthographic
+                P : Perspective
+  z/Z           Zoom
+                z : Zoom out
+                Z : Zoom in
+  f/F           Enable first person navigation
+                f : enable
+                F : disable
+
+Use following to navigate when first person navigation is on:
+    a           Turn left
+    d           Turn right
+    w           Move front
+    s           Move back
+
+Note that ARROW keys have no effect when navigating first person. Use a-s-d-w keys instead.
+                
+
+Reference used:
+* Code from exercise 8.
+
+Time took to complete the assignment: ~8 hours

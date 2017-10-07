@@ -1,0 +1,32 @@
+Assigment 1
+Lorenz Attractor
+
+Adil Sadik (BBA student)
+sadik.adil@gmail.com
+
+Key bindings
+    Arrow keys  Change view angle
+    ESC         Exit
+    0           Reset view angle and lorenz parameters
+    s           Increase parameter s by 1
+    S           Decrese parameter s by 1
+    b           Increase parameter b by 1
+    B           Decrese parameter b by 1
+    r           Increase parameter r by 1
+    R           Decrese parameter R by 1
+    x           Rotate around X axis
+    y           Rotate around Y axis
+    z           Rotate around Z axis
+    a           Enable animation
+    A           Disable animation
+    d           Display x,y,z axis- useful in debug 
+    D           Don't display x,y,z axis- useful in debug 
+
+
+Reference used:
+* Code from exercise 6.
+* http://www.prinmath.com/csci5229/misc/lorenz.c 
+
+
+Time took to complete the assignment: ~5 hours
+
