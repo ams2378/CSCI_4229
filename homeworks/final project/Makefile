@@ -1,4 +1,3 @@
-# Example 14
 EXE=final
 
 # Main target

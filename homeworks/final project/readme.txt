@@ -1,27 +1,30 @@
 Adil Sadik
-CSCI 4229 project review
+sadik.adil@gmail.com
+CSCI 4229 final project 
 
+My project idea was to create a small city in OpenGl.
 
 Control of the Program: 
-  Zoom: 
-    (+) : Increases Zoom by 10%
-    (-) : Decreases Zoom by 10%
-  Prospective: 
-    The prospective can be tiled between Projection and Orthoginal, but defaults to Projection
-    (m): Toggles Mode
-  
-    
- Remaining work:
-    I wanted to first layout the landscape and basic building blocks (like homes, buildings, trees etc) before I start 
-    adding interesting features. I think I'm a little bit behind and I'll try to put extra effort to get rest of 
-    the featues done by this week.
+    Z : zoom in 
+    z : zoom out 
+    f : switch to first person navication. You should be able to navigate the scene in this mode.
+        Use 'a', 's', 'd', 'w' keys to navigate
+    0 : reset settings
 
-    I still have following remaining work:
-        - Add textures to the scene-
-            - I didn't add any texture in parking garage next to the forest. 
-            - Top of the building. 
-        - Create a cube and place the scene inside it. I'll add texture (i.e. sky/horizon) in the cube to make the scene look realistic. 
-        - Lighting, shadows and animation.
-    
+Misc controls :
+    l/L : enable or disable lighting
+    g/G : turn on or off fog effect
+    i/I : use directional light (to simulate sunlight)
+    q/Q : enable or disable debug objects (axes, print statements)
+    u/U : decrease or increase diffuse light
+    b/B : decrease or increase ambient light
+    c/C : decrease or increase specular light
+
+Reference
+    - I've used following code as a template:
+      https://github.com/jacobhaynes/CSCI4229/tree/master/Homework3_Scene
+      I only used one very simple 3D rectangular object from this code (see drawGround function). Everything else in the program is my own work.
+      Original code didn't have any textures. So, I modified the borrowed object to support texture mapping.
+    - I also took ideas from the example codes shown in class. 
 
 
